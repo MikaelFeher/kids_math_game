@@ -1,0 +1,104 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#intro_area {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#intro_area h1, p, div {
+	margin: 1% auto 2% auto;
+
+}
+
+#main_game_container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* LEFT CONTENT */
+#left_content {
+	width: 55%;
+	box-shadow: 0 0 20px 0 #333;
+	text-align: center;
+	padding: 2%;
+}
+
+#main_game_area h1 {
+	font-size: 4em;
+}
+
+#player_name_display {
+	text-transform: capitalize;
+}
+
+.game_button {
+	padding: 3%;
+	font-size: 1.6em;
+	border-radius: 10%;
+	cursor: pointer;
+	color: white;
+	text-shadow: 3px 2px #333;
+}
+
+#player_guess_button {
+	background-color: green;
+}
+
+#clear_button {
+	background-color: red;
+}
+
+#reset_game_button {
+	background-color: green;
+}
+
+/* RIGHT CONTENT */
+#right_content {
+	width: 40%;
+	box-shadow: 0 0 20px 0 #333;
+	padding: 2%;
+
+}
+
+#number_buttons_container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.number_buttons {
+	width: 30%;
+	height: 100px;
+	box-shadow: 0 0 15px 0 #333;
+	font-size: 3.2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 10%;
+}
+
+#quit_button {
+	width: 60%;
+	height: 100px;
+	box-shadow: 0 0 15px 0 #333;
+	font-size: 3.2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 10%;
+	background-color: red;
+	color: white;
+	text-shadow: 3px 2px #333;
+}

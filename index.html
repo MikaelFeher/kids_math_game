@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="./jquery-3.2.1.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="./style.css">
+	<title>Kids Math Game</title>
+</head>
+<body>
+	<div id="main_container">
+
+		<div id="intro_area">
+			<h1>Välkommen till matte spelet</h1>
+			<p>Du kommer att få räkna addition, alltså plussa ihop 2 tal. <br> Din uppgift är att räkna ut och skriva in vad summan blir.</p>
+			<div id="player_id_container">
+				<p>Börja med att skriva in ditt namn</p>
+				<input type="text" id="player_name_input" placeholder="Skriv ditt namn här...">
+				<button id="player_name_input_button">Börja spela</button>
+			</div>
+		</div>
+		<div id="main_game_container">
+			<div id="left_content">
+				<div id="main_player_area">
+					<p>Vad blir summan av talen, <span id="player_name_display">Viktor</span>?</p>
+				</div>
+				<div id="main_game_area">
+					<h1><span id="first_number">1</span> + <span id="second_number">1</span> = <span id="sum">?</span></h1>
+					<button class="game_button" id="clear_button">Sudda</button>
+					<button class="game_button" id="player_guess_button">Räkna</button>
+					<div id="result_output"></div>
+					<button class="game_button" id="reset_game_button">Nytt försök</button>
+				</div>
+			</div>
+			<div id="right_content">
+				<div id="number_buttons_container">
+					<div class="number_buttons">7</div>
+					<div class="number_buttons">8</div>
+					<div class="number_buttons">9</div>
+					<div class="number_buttons">4</div>
+					<div class="number_buttons">5</div>
+					<div class="number_buttons">6</div>
+					<div class="number_buttons">1</div>
+					<div class="number_buttons">2</div>
+					<div class="number_buttons">3</div>
+					<div class="number_buttons">0</div>
+					<div id="quit_button">Avsluta</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
