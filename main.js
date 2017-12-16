@@ -1,11 +1,12 @@
+masterReset();
 
 $(document).ready(function() {
-	masterReset();
 	theGame();
 });
 
 function theGame() {
-	$('#player_name_input_button').on('click', function(){
+	$('#player_name_input_button').on('click', function(e){
+		e.preventDefault();
 		let playerNameInput = $('#player_name_input');
 		let playerGuess = ''
 
