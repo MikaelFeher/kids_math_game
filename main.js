@@ -71,11 +71,9 @@ function theGame() {
 }
 
 function masterReset() {
+	$('#main_game_container').hide();
 	let playerName = '';
 	$('#player_id_container').show();
 	$('#player_name_input').val('').focus();
-	if (!playerName) {
-		$('#main_game_container').hide();
-	}
 	$('#reset_game_button').hide();
 }
