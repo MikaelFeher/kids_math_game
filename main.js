@@ -5,10 +5,12 @@ $(document).ready(function() {
 });
 
 function theGame() {
-	$('#player_name_input_button').on('click', function(){
+	var playerNameInputButton = document.getElementById('player_name_input_button');
+	playerNameInputButton.addEventListener('click', function(){
+
+	// $('#player_name_input_button').on('click', function(){
 		let playerNameInput = $('#player_name_input');
 		let playerGuess = ''
-
 
 		if(playerNameInput.val()){
 			playerName = playerNameInput.val();
