@@ -5,8 +5,7 @@ $(document).ready(function() {
 });
 
 function theGame() {
-	$('#player_name_input_button').on('click', function(e){
-		e.preventDefault();
+	$('#player_name_input_button').on('click', function(){
 		let playerNameInput = $('#player_name_input');
 		let playerGuess = ''
 
