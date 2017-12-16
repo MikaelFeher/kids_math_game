@@ -1,6 +1,6 @@
-masterReset();
 
 $(document).ready(function() {
+	masterReset();
 	$('#player_name_input_button').on('click', function(){
 		let playerNameInput = $('#player_name_input');
 		let playerGuess = ''

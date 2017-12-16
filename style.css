@@ -14,7 +14,10 @@
 
 #intro_area h1, p, div {
 	margin: 1% auto 2% auto;
+}
 
+#player_name_input_button {
+	cursor: pointer;
 }
 
 #main_game_container {
