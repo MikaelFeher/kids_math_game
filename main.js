@@ -1,6 +1,10 @@
 
 $(document).ready(function() {
 	masterReset();
+	theGame();
+});
+
+function theGame() {
 	$('#player_name_input_button').on('click', function(){
 		let playerNameInput = $('#player_name_input');
 		let playerGuess = ''
@@ -64,7 +68,7 @@ $(document).ready(function() {
 	function randNumGen() {
 		return Math.floor(Math.random()*10 + 1)
 	}
-});
+}
 
 function masterReset() {
 	let playerName = '';
