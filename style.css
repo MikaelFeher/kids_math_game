@@ -69,7 +69,6 @@
 	width: 40%;
 	box-shadow: 0 0 20px 0 #333;
 	padding: 2%;
-
 }
 
 #number_buttons_container {
@@ -89,6 +88,7 @@
 	justify-content: center;
 	cursor: pointer;
 	border-radius: 10%;
+	
 }
 
 #quit_button {
@@ -104,4 +104,54 @@
 	background-color: red;
 	color: white;
 	text-shadow: 3px 2px #333;
+}
+
+@media (max-width:950px){
+	#main_game_container {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#left_content {
+		width: 55%;
+		box-shadow: 0 0 20px 0 #333;
+		text-align: center;
+		padding: 2%;
+	}
+
+	#main_game_area h1 {
+		font-size: 3em;
+	}
+
+	#right_content {
+		width: 40%;
+		box-shadow: 0 0 20px 0 #333;
+		padding: 2%;
+	}
+
+	.game_button {
+		font-size: .8em;
+	}
+
+	.number_buttons {
+		height: 35px;
+		font-size: 1.2em;		
+	}
+
+	#quit_button {
+		width: 60%;
+		height: 35px;
+		box-shadow: 0 0 15px 0 #333;
+		font-size: 1.5em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		border-radius: 10%;
+		background-color: red;
+		color: white;
+		text-shadow: 3px 2px #333;
+	}
 }
